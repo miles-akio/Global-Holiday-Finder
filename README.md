@@ -1,6 +1,4 @@
-### Project Title:
-
-**Global Holiday Finder**
+### Project Title: Global Holiday Finder**
 
 ### Project Description for `README.md`
 
