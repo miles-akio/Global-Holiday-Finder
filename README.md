@@ -1,9 +1,3 @@
-### Project Title: Global Holiday Finder
-
-### Project Description for `README.md`
-
----
-
 # Global Holiday Finder
 
 Global Holiday Finder is a web-based application that allows users to quickly access public holidays in any country for a specific year. Leveraging the Nager.Date API, a reliable and comprehensive public holiday database, Global Holiday Finder provides users with a simple and efficient way to view holidays by entering the relevant country code and year. This project serves as a handy tool for travelers, international businesses, and anyone interested in global holiday observances.
