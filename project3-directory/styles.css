@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif; /* Set the font family for the body */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #f9f9f9; /* Light background color */
+}
+
+/* Header Styles */
+header {
+    background-color: #4c4d4c; /* Dark gray background color for header */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding around the header */
+    text-align: center; /* Center the text */
+}
+
+nav {
+    padding-left: 20px; /* Align nav links to the left */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+nav li {
+    display: inline; /* Display list items in a line */
+    margin-right: 20px; /* Space between nav links */
+}
+
+nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: #007bff; /* Set link color */
+}
+
+/* Specific style for HolidaysViewers */
+nav .main-link {
+    font-size: 24px; /* Larger font size for the main link */
+    font-weight: bold; /* Bold font for emphasis */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+nav ul li {
+    display: inline; /* Display items inline */
+    margin: 0 15px; /* Space between menu items */
+}
+
+nav ul li a {
+    color: white; /* White color for links in the navigation */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Main Content Styles */
+main {
+    margin: 20px; /* Add margin around main content */
+    text-align: center; /* Center text in the main section */
+}
+
+/* Flex Container for Input Fields */
+.flex-container {
+    display: flex; /* Enable flexbox layout */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    margin: 20px; /* Margin around the container */
+}
+
+.flex-container label {
+    margin: 0 10px; /* Space between labels and inputs */
+}
+
+.flex-container input {
+    padding: 8px; /* Padding for input fields */
+    margin: 0 5px; /* Margin between inputs */
+    border: 1px solid #ccc; /* Light border for input fields */
+    border-radius: 4px; /* Rounded corners for inputs */
+}
+
+.flex-container button {
+    padding: 8px 12px; /* Padding for the submit button */
+    background-color: #4c4d4c; /* Background color for button */
+    color: white; /* White text color */
+    border: none; /* No border for button */
+    border-radius: 4px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.flex-container button:hover {
+    background-color: #4c4d4c; /* Background color on hover */
+}
+
+/* Table Styles */
+table {
+    width: 100%; /* Full width for the table */
+    border-collapse: collapse; /* Collapse borders for a cleaner look */
+    margin-top: 20px; /* Space above the table */
+}
+
+th, td {
+    padding: 10px; /* Padding inside table cells */
+    text-align: left; /* Left-align text in cells */
+    border: 1px solid #4c4d4c; /* Border color for cells */
+}
+
+th {
+    background-color: #4c4d4c; /* Background color for header cells */
+    color: white; /* White text color for header */
+}
+
+/* Item Styles */
+.item {
+    padding: 10px; /* Optional: add some padding to items */
+    background-color: #f0f0f0; /* Optional: background color for items */
+    border: 1px solid #ddd; /* Optional: border around items */
+}
