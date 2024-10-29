@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"> <!-- Set character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive design for mobile devices -->
+    <title>Public Holidays Finder</title> <!-- Title displayed in the browser tab -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file for styling -->
+    <script src="script.js" defer></script> <!-- Link to the external JavaScript file, loaded after HTML parsing -->
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" class="main-link">HolidaysViewers</a></li> <!-- Main site link -->
+                <li><a href="#">Home</a></li> <!-- Home link -->
+                <li><a href="#">Privacy</a></li> <!-- Privacy policy link -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Public Holidays Finder</h2> <!-- Main heading for the application -->
+        <div class="flex-container">
+            <label for="country">Country Code:</label> <!-- Label for country code input -->
+            <input type="text" id="country" placeholder="e.g. US, DE"> <!-- Input field for country code -->
+            <label for="year">Year:</label> <!-- Label for year input -->
+            <input type="number" id="year" placeholder="e.g. 2021"> <!-- Input field for year -->
+            <button id="submit">Submit</button> <!-- Submit button -->
+        </div>
+
+        <table id="holidays-table"> <!-- Table for displaying the holidays -->
+            <thead>
+                <tr>
+                    <th>Date</th> <!-- Column header for date -->
+                    <th>Name</th> <!-- Column header for holiday name -->
+                    <th>Local Name</th> <!-- Column header for local name -->
+                    <th>Country Code</th> <!-- Column header for country code -->
+                    <th>Global</th> <!-- Column header for global checkbox -->
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Rows will be populated by JavaScript -->
+            </tbody>
+        </table>
+    </main>
+</body>
+
+</html>
