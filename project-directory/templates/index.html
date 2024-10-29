@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Public Holidays</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <h1>Public Holidays Finder</h1>
+    <form method="post">
+        <label for="country_code">Country Code:</label>
+        <input type="text" id="country_code" name="country_code" required placeholder="e.g., US">
+        <label for="year">Year:</label>
+        <input type="number" id="year" name="year" required placeholder="e.g., 2020">
+        <button type="submit">Get Holidays</button>
+    </form>
+
+    {% if error %}
+    <p class="error">{{ error }}</p>
+    {% endif %}
+
+    {% if holidays %}
+    <h2>Holidays:</h2>
+    <ul>
+        {% for holiday in holidays %}
+        <li>{{ holiday.date }} - {{ holiday.localName }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</body>
+
+</html>
